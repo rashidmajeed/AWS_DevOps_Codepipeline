@@ -5,7 +5,7 @@ application = Flask(__name__)
 from markupsafe import escape
 
 def say_hello(username = "World"):
-    return '<p>Hello %s!</p>\n' % username
+    return '<p>Hello DevOps Engineer here :) %s!</p>\n' % username
 
 header_text = '''
     <html>\n<head> <title>ElasticBeanstalk Flask App with CodePipeline!</title> </head>\n<body>'''
